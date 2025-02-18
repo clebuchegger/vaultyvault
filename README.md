@@ -89,6 +89,11 @@ Generate client secret + id for OAuth authentication
 php artisan passport:client --client
 ```
 
+Minimal testing
+```bash
+php artisan test
+```
+
 # Limits / infos / stretch goals
 
 1. Uses OAuth2 machine-to-machine authentication using Laravel Passport
